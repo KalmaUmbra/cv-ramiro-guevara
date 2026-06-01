@@ -25,6 +25,7 @@ body{font-family:Georgia,serif;background:#fff;color:#1a1a2e;font-size:11pt;line
 .tag{background:#0f3460;color:#fff;font-size:8pt;padding:2px 8px;border-radius:10px}
 .tag.l{background:#533483}
 .tag.a{background:#e94560}
+.tag.g{background:#1a6640}
 .ei{margin-bottom:16px;padding-bottom:16px;border-bottom:1px dashed #dde3ff}
 .ei:last-child{border-bottom:none}
 .eh{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px}
@@ -36,9 +37,11 @@ body{font-family:Georgia,serif;background:#fff;color:#1a1a2e;font-size:11pt;line
 .pg{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .pc{background:#f8f9ff;border:1px solid #e2e8ff;border-radius:8px;padding:11px 13px;border-top:3px solid #0f3460}
 .pc.at{border-top-color:#e94560}
+.pc.ag{border-top-color:#1a6640}
 .pc h4{font-size:9.5pt;font-weight:700;color:#0f3460;margin-bottom:4px}
 .pc p{font-size:9pt;color:#555;line-height:1.4}
 .pm{font-size:8.5pt;color:#e94560;font-weight:700;margin-top:4px}
+.pm.g{color:#1a6640}
 .pt{font-size:8pt;color:#888;margin-top:3px}
 .cl2{display:grid;grid-template-columns:1fr 1fr;gap:7px}
 .ci{display:flex;align-items:center;gap:7px;background:#f0f4ff;padding:7px 11px;border-radius:6px}
@@ -52,6 +55,23 @@ body{font-family:Georgia,serif;background:#fff;color:#1a1a2e;font-size:11pt;line
 .footer{text-align:center;font-size:8pt;color:#999;margin-top:18px;border-top:1px solid #eee;padding-top:10px}
 .btn{position:fixed;top:20px;right:20px;background:#e94560;color:#fff;border:none;padding:11px 22px;border-radius:6px;cursor:pointer;font-size:11pt;font-weight:700;box-shadow:0 4px 15px rgba(233,69,96,.4);z-index:1000}
 .hl{color:#e94560;font-weight:700}
+/* KalmaUmbra feature section */
+.ku-section{background:linear-gradient(135deg,#0a1f0a,#0d2b0d,#0f3318);border-radius:10px;padding:20px 24px;margin-bottom:20px;border:1px solid #1a6640}
+.ku-section .stitle{color:#4ade80;border-bottom-color:#1a6640}
+.ku-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px;flex-wrap:wrap;gap:10px}
+.ku-brand{color:#fff}
+.ku-brand h3{font-size:14pt;font-weight:700;color:#86efac;margin-bottom:3px}
+.ku-brand p{font-size:9.5pt;color:#6ee7b7;font-style:italic}
+.ku-live{background:#1a6640;color:#86efac;font-size:8.5pt;padding:4px 10px;border-radius:12px;font-weight:700;border:1px solid #4ade80}
+.ku-desc{font-size:10pt;color:#d1fae5;line-height:1.7;margin-bottom:14px}
+.ku-agents{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+.ku-agent{background:rgba(26,102,64,0.3);border:1px solid #1a6640;border-radius:7px;padding:9px 12px;border-left:3px solid #4ade80}
+.ku-agent h5{font-size:9.5pt;font-weight:700;color:#86efac;margin-bottom:3px}
+.ku-agent p{font-size:8.5pt;color:#a7f3d0;line-height:1.4}
+.ku-stack{display:flex;gap:5px;flex-wrap:wrap;margin-top:10px}
+.ku-tag{background:rgba(74,222,128,0.15);color:#86efac;font-size:8pt;padding:2px 9px;border-radius:10px;border:1px solid #1a6640}
+.ku-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px;font-size:9pt;color:#6ee7b7}
+.ku-links a{color:#86efac;text-decoration:none}
 </style>
 </head>
 <body>
@@ -73,7 +93,61 @@ body{font-family:Georgia,serif;background:#fff;color:#1a1a2e;font-size:11pt;line
 
 <div class="section">
   <div class="stitle">Perfil Profesional</div>
-  <div class="about">AI Architect e investigador independiente especializado en eficiencia energetica, sistemas multiagente e infraestructura de IA. Certificado por Anthropic con experiencia en AWS Bedrock, Google Cloud Vertex AI y diseno de artefactos IA desde cero. Autor del framework ASPR que logra <strong>-13% de consumo energetico en inferencia sin impacto en latencia</strong> (10M requests simulados). Builder autonomo que disena, implementa y despliega sistemas completos. Disponible 100% remoto.</div>
+  <div class="about">AI Architect e investigador independiente especializado en eficiencia energetica, sistemas multiagente e infraestructura de IA. Certificado por Anthropic con experiencia en AWS Bedrock, Google Cloud Vertex AI y diseno de artefactos IA desde cero. Creador de KalmaUmbra, ecosistema de marca con <strong>5 agentes IA en produccion</strong> desarrollados en colaboracion con Claude Sonnet. Autor del framework ASPR que logra <strong>-13% de consumo energetico en inferencia sin impacto en latencia</strong>. Builder autonomo. Disponible 100% remoto.</div>
+</div>
+
+<!-- KALMAUMBRA DESTACADO -->
+<div class="ku-section">
+  <div class="stitle" style="color:#4ade80;border-bottom-color:#1a6640;margin-bottom:14px">Caso Real: KalmaUmbra &mdash; Ecosistema IA+Human en Produccion</div>
+  <div class="ku-header">
+    <div class="ku-brand">
+      <h3>KalmaUmbra &mdash; Ritual Sonoro &middot; Antigravity</h3>
+      <p>Marca de experiencia sensorial con infraestructura IA autonoma &middot; www.kalmaumbra.com</p>
+    </div>
+    <div class="ku-live">LIVE IN PRODUCTION</div>
+  </div>
+  <div class="ku-desc">
+    Ecosistema de marca completo operado por <strong style="color:#86efac">5 agentes IA especializados en produccion</strong>, desarrollados en colaboracion con Claude Sonnet (Anthropic) como co-arquitecto y Gemini CLI como manager de proyecto. El entorno de trabajo se llama <em style="color:#a7f3d0">Antigravity</em> — un sistema de orquestacion donde cada agente tiene un rol diferenciado y opera de forma coordinada. La marca cuenta con tienda web, presencia en Instagram, Facebook y pagina interactiva.
+  </div>
+  <div class="ku-agents">
+    <div class="ku-agent">
+      <h5>Kalma Comms</h5>
+      <p>Agente de comunicacion ejecutiva. Gestiona mensajeria, tono de marca y comunicaciones externas con coherencia estetica.</p>
+    </div>
+    <div class="ku-agent">
+      <h5>Dreamweaver</h5>
+      <p>Agente de desarrollo creativo. Genera contenido sensorial, narrativas de marca y experiencias inmersivas.</p>
+    </div>
+    <div class="ku-agent">
+      <h5>Monitor Agent</h5>
+      <p>Investigacion y reporte en salud, bienestar sexual, lifestyle y tendencias. Produce informes para guiar la estrategia de contenido.</p>
+    </div>
+    <div class="ku-agent">
+      <h5>Claude Sonnet (co-arquitecto)</h5>
+      <p>Arquitecto del ecosistema. Diseno de sistemas, revision de logica, toma de decisiones tecnicas en colaboracion directa con el humano.</p>
+    </div>
+    <div class="ku-agent">
+      <h5>Gemini CLI (manager)</h5>
+      <p>Manager de proyecto y administrador del entorno Antigravity. Coordinacion de tareas, seguimiento y gestion del entorno de trabajo.</p>
+    </div>
+  </div>
+  <div class="ku-stack">
+    <span class="ku-tag">Multi-Agent Orchestration</span>
+    <span class="ku-tag">Claude Sonnet API</span>
+    <span class="ku-tag">Gemini CLI</span>
+    <span class="ku-tag">Human-AI Collaboration</span>
+    <span class="ku-tag">Production Environment</span>
+    <span class="ku-tag">Brand Automation</span>
+    <span class="ku-tag">Sensory Experience</span>
+    <span class="ku-tag">Antigravity Env</span>
+  </div>
+  <div class="ku-links">
+    <span>Sitio: <a href="https://www.kalmaumbra.com">www.kalmaumbra.com</a></span>
+    <span>&middot;</span>
+    <span>GitHub: <a href="https://github.com/kalmaUmbra/kalmaUmbra">github.com/kalmaUmbra</a></span>
+    <span>&middot;</span>
+    <span>Instagram &middot; Facebook &middot; Tienda Web</span>
+  </div>
 </div>
 
 <div class="section">
@@ -98,6 +172,16 @@ body{font-family:Georgia,serif;background:#fff;color:#1a1a2e;font-size:11pt;line
     </ul>
   </div>
   <div class="ei">
+    <div class="eh"><div><div class="et">AI Brand Architect &amp; Multi-Agent Developer</div><div class="ec">KalmaUmbra &middot; Ecosistema IA en Produccion</div></div><div class="ed">2024 - Presente</div></div>
+    <ul class="eb">
+      <li>Diseno y despliegue de 5 agentes IA especializados operando en produccion en www.kalmaumbra.com.</li>
+      <li>Entorno Antigravity: orquestacion de agentes con roles diferenciados (comunicacion, creatividad, investigacion, arquitectura, gestion).</li>
+      <li>Colaboracion IA+Human en tiempo real: Claude Sonnet como co-arquitecto, Gemini CLI como manager de proyecto.</li>
+      <li>Marca con presencia multi-canal: tienda web, Instagram, Facebook, pagina interactiva sensorial.</li>
+      <li>Prototipo de empresa IA-first: operaciones de marca automatizadas con supervision humana minima.</li>
+    </ul>
+  </div>
+  <div class="ei">
     <div class="eh"><div><div class="et">AI Artifact Designer &amp; Builder</div><div class="ec">KalmaUmbra &middot; Proyectos Propios</div></div><div class="ed">2024 - Presente</div></div>
     <ul class="eb">
       <li>Artefactos IA end-to-end: sistemas de reputacion, analizadores legales, plataformas completas.</li>
@@ -116,11 +200,11 @@ body{font-family:Georgia,serif;background:#fff;color:#1a1a2e;font-size:11pt;line
 <div class="section">
   <div class="stitle">Proyectos Destacados</div>
   <div class="pg">
+    <div class="pc ag"><h4>KalmaUmbra Ecosystem</h4><p>5 agentes IA en produccion. Marca operada por IA con supervision humana. Entorno Antigravity.</p><div class="pm g">LIVE &middot; 5 agents &middot; Multi-channel brand</div><div class="pt">Claude Sonnet &middot; Gemini CLI &middot; Human-AI</div></div>
     <div class="pc at"><h4>ASPR Gardener</h4><p>Framework de poda estructural adaptativa para sistemas de inferencia IA.</p><div class="pm">-13% energia &middot; 0% latency &middot; 10M req sim.</div><div class="pt">Python &middot; Flask &middot; Plotly &middot; MIT</div></div>
     <div class="pc"><h4>Ghost Balancer</h4><p>Karma balancer para integridad multiagente con blockchain y Ed25519.</p><div class="pm">Multi-agent integrity &middot; Cryptographic</div><div class="pt">Python &middot; Ed25519 &middot; MIT</div></div>
     <div class="pc"><h4>Camara de Ecos</h4><p>Investigacion sesgo recursivo IA. 400 agentes, 60 dias. Nueva metrica KF.</p><div class="pm">69% IA-IA documentado &middot; KF metric</div><div class="pt">Python &middot; Research &middot; MIT</div></div>
     <div class="pc"><h4>ASPR Forense</h4><p>Protocolo criptografico para forensia digital y monitoreo de red.</p><div class="pm">Chain of custody &middot; Ed25519</div><div class="pt">Python &middot; Ed25519 &middot; MIT</div></div>
-    <div class="pc"><h4>ASPR Oracle Network</h4><p>Red de nodos con karma verificable. Nodo publico activo.</p><div class="pm">Decentralized &middot; Live deployed</div><div class="pt">Tailscale &middot; Ed25519</div></div>
     <div class="pc at"><h4>KidsLab</h4><p>Plataforma educativa PvP para ninos. Logica y programacion retro.</p><div class="pm">EdTech &middot; Open source</div><div class="pt">Python &middot; Pygame &middot; MIT</div></div>
   </div>
 </div>
@@ -139,12 +223,12 @@ body{font-family:Georgia,serif;background:#fff;color:#1a1a2e;font-size:11pt;line
 
 <div class="section">
   <div class="tc">
-    <div class="vp"><h4>Value Proposition</h4><p>Builder con mentalidad investigadora. Diseno sistemas IA completos: arquitectura, codigo, deploy. Solo, distinto, resultados medibles. Todo MIT.</p></div>
-    <div class="vp"><h4>Rol Buscado</h4><p>AI Architect &middot; AI Engineer &middot; AI Systems Designer. Equipos remotos internacionales. Infraestructura IA, sistemas multiagente, investigacion aplicada.</p></div>
+    <div class="vp"><h4>Value Proposition</h4><p>Builder con mentalidad investigadora. Diseno sistemas IA completos: arquitectura, codigo, deploy. Unico en combinar investigacion teorica (ASPR, Camara de Ecos) con produccion real (KalmaUmbra). Todo MIT.</p></div>
+    <div class="vp"><h4>Rol Buscado</h4><p>AI Architect &middot; AI Engineer &middot; AI Systems Designer. Equipos remotos internacionales. Infraestructura IA, sistemas multiagente, human-AI collaboration, investigacion aplicada.</p></div>
   </div>
 </div>
 
-<div class="footer">Ramiro Guevara &middot; ramiguevara@gmail.com &middot; github.com/kalmaUmbra &middot; Buenos Aires &middot; 100% Remote Ready</div>
+<div class="footer">Ramiro Guevara &middot; ramiguevara@gmail.com &middot; github.com/kalmaUmbra &middot; kalmaumbra.com &middot; Buenos Aires &middot; 100% Remote Ready</div>
 
 <div class="page-break" style="padding-top:40px">
   <div class="header" style="border-radius:8px;margin-bottom:8px">
@@ -153,6 +237,7 @@ body{font-family:Georgia,serif;background:#fff;color:#1a1a2e;font-size:11pt;line
     <div class="contacts" style="margin-top:10px">
       <span>ramiguevara@gmail.com</span>
       <span>github.com/kalmaUmbra</span>
+      <span>kalmaumbra.com</span>
       <span>Buenos Aires &middot; 100% Remote</span>
     </div>
   </div>
@@ -164,19 +249,19 @@ body{font-family:Georgia,serif;background:#fff;color:#1a1a2e;font-size:11pt;line
   </div>
   <div style="font-size:10.5pt;line-height:1.9;color:#333">
     <p style="margin-bottom:16px">Me dirijo a ustedes con genuino entusiasmo para expresar mi interes en unirme a su equipo como <span class="hl">AI Systems Architect</span> o <span class="hl">AI Engineer</span>. Soy Ramiro Guevara, builder independiente basado en Buenos Aires, Argentina, y llevo mas de dos anos disenando y construyendo sistemas de inteligencia artificial desde cero.</p>
-    <p style="margin-bottom:16px">Mi trabajo mas relevante es el framework <span class="hl">ASPR (Adaptive Structural Pruning &amp; Reporting)</span>, que logra una <span class="hl">reduccion del 13% en consumo energetico sin ningun impacto en latencia</span> (10M requests simulados). Identifico el problema, diseno la solucion, la implemento en Python y la publico bajo MIT.</p>
-    <p style="margin-bottom:16px">Cuento con <span class="hl">mas de 15 certificaciones de Anthropic</span>, incluyendo Claude con AWS Bedrock y Google Cloud Vertex AI. Trabajo aplicado en proyectos reales: analizador legal en AWS S3, red descentralizada con karma criptografico Ed25519, sistemas multiagente con blockchain local.</p>
-    <p style="margin-bottom:16px">Mi proyecto <span class="hl">Camara de Ecos</span> documento que el 69% del trafico en redes multiagente es IA-IA, recursividad vacia. Disene una metrica de karma con anclaje externo fisico no falsificable. Asi pienso: voy a la raiz, no al sintoma.</p>
-    <p style="margin-bottom:16px">Trabajo 100% remoto desde Buenos Aires. Codigo limpio, documentado, todo MIT. Si construyen infraestructura de IA, optimizan inferencia o disenan arquitecturas multiagente, hagamos algo interesante juntos.</p>
-    <p style="margin-bottom:16px">Trabajo disponible en <span class="hl">github.com/kalmaUmbra</span>. Disponible para una llamada cuando mejor les convenga.</p>
+    <p style="margin-bottom:16px">El ejemplo mas concreto de mi trabajo es <span class="hl">KalmaUmbra</span> (www.kalmaumbra.com): una marca de experiencia sensorial operada por <span class="hl">5 agentes IA especializados en produccion</span>, desarrollados en colaboracion directa con Claude Sonnet como co-arquitecto y Gemini CLI como manager de proyecto. El entorno se llama Antigravity. Los agentes tienen roles diferenciados: comunicacion ejecutiva (Kalma Comms), desarrollo creativo (Dreamweaver), investigacion en bienestar y lifestyle (Monitor Agent), ademas del co-arquitecto y el manager. No es un prototipo ni una demo: es una marca real con tienda web, redes sociales y pagina interactiva funcionando.</p>
+    <p style="margin-bottom:16px">Tambien desarrollo frameworks de investigacion como <span class="hl">ASPR (Adaptive Structural Pruning &amp; Reporting)</span>, que logra una <span class="hl">reduccion del 13% en consumo energetico en inferencia sin impacto en latencia</span> (10M requests simulados), y publique investigacion sobre camaras de eco en redes IA documentando que el 69% del trafico multiagente es IA hacia IA, disenando metricas de karma con anclaje externo fisico.</p>
+    <p style="margin-bottom:16px">Cuento con <span class="hl">mas de 15 certificaciones de Anthropic</span>, incluyendo Claude con AWS Bedrock y Google Cloud Vertex AI. Todo lo que hago es aplicado, verificable y publicado bajo MIT.</p>
+    <p style="margin-bottom:16px">Trabajo 100% remoto desde Buenos Aires. Si construyen infraestructura de IA, sistemas multiagente o quieren ver como funciona la colaboracion IA+Human en produccion real, podemos hacer algo interesante juntos.</p>
+    <p style="margin-bottom:16px">Trabajo disponible en <span class="hl">github.com/kalmaUmbra</span> y <span class="hl">www.kalmaumbra.com</span>. Disponible para una llamada cuando mejor les convenga.</p>
     <p>Muchas gracias por su tiempo y consideracion.</p>
   </div>
   <div style="margin-top:40px">
     <div style="font-size:13pt;font-weight:700;color:#0f3460">Ramiro Guevara</div>
-    <div style="font-size:10pt;color:#666;margin-top:3px">AI Systems Architect &middot; AI Artifact Designer &middot; Anthropic Certified</div>
-    <div style="font-size:9pt;color:#888;margin-top:5px">ramiguevara@gmail.com &middot; github.com/kalmaUmbra &middot; Buenos Aires</div>
+    <div style="font-size:10pt;color:#666;margin-top:3px">AI Systems Architect &middot; AI Brand Architect &middot; Anthropic Certified</div>
+    <div style="font-size:9pt;color:#888;margin-top:5px">ramiguevara@gmail.com &middot; github.com/kalmaUmbra &middot; kalmaumbra.com &middot; Buenos Aires</div>
   </div>
-  <div class="footer" style="margin-top:30px">Junio 2026 &middot; github.com/kalmaUmbra</div>
+  <div class="footer" style="margin-top:30px">Junio 2026 &middot; github.com/kalmaUmbra &middot; kalmaumbra.com</div>
 </div>
 
 </div>
